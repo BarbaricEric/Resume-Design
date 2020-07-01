@@ -122,5 +122,44 @@ header {
 } 
   
 /* Projects */
+.experts {
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+ flex-wrap: wrap;
+}
+
+.cont-expert {
+ width: 30%;
+ text-align: center;
+ margin-bottom: 20px;
+ cursor: pointer;
+}
+
+.cont-expert-two {
+ width: 100%;
+ text-align: center;
+ margin-bottom: 20px;
+ cursor: pointer;
+}
+
+.cont-expert img {
+ width: 80%;
+ display: block;
+ margin: 0 auto;
+}
+
+.cont-expert-two img {
+ width: 50%;
+ display: block;
+ margin: 0 auto;
+}
+
+.n-expert {
+ display: inline-block;
+ margin-top: 10px;
+ width: 100%;
+ font-weight: 400;
+}
   
 /* Footer */
