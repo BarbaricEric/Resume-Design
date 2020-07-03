@@ -163,7 +163,7 @@ header {
 }
 
 .card {
-   background: #ffffff;
+  background: #ffffff;
   border-radius: 8px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   <!-- cursor: pointer; -->
@@ -209,3 +209,66 @@ header {
 }
   
 /* Footer */
+footer {
+ background: #9F8AD0;
+ padding-bottom: 0.1px;
+}
+
+.footer-content {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-wrap: wrap;
+ padding-top: 60px;
+ padding-bottom: 40px;
+}
+
+.contact-us {
+ width: 40%;
+ color: #FFFFFF;
+}
+
+.brand {
+ font-weight: 500;
+ font-size: 40px;
+}
+
+.brand+p {
+ font-weight: 500;
+}
+
+.social-media {
+ width: 50%;
+ display: flex;
+ justify-content: flex-end; 
+}
+
+.social-media-icon {
+ display: inline-block;
+ margin-left: 20px;
+ width: 60px;
+ height: 60px;
+ border: 1px solid #FFFFFF;
+ border-radius: 50%;
+ text-align: center;
+ color: #FFFFFF;
+}
+
+.social-media-icon:hover {
+ background: #FFFFFF;
+ color: #764BA2;
+}
+
+.social-media-icon i {
+ font-size: 30px;
+ line-height: 60px;
+}
+
+.line {
+ width: 100%;
+ max-width: 1800px;
+ margin: 0 auto;
+ height: 2px;
+ background: #FFFFFF;
+ margin-bottom: 60px;
+}
