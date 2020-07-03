@@ -11,7 +11,7 @@
  font-family: 'Rancho', sans-serif;
 }
 
-.container {
+.containerbox {
  width: 90%;
  max-width: 1200px;
  overflow: hidden;
@@ -62,14 +62,14 @@ header {
  font-size: 40px;
 }
 
-.container-service {
+.containerbox-service {
  display: flex;
  justify-content: space-evenly;
  align-items: center;
  flex-wrap: wrap;
 }
 
-.container-service img {
+.containerbox-service img {
  width: 40%;
  
 .checklist-service {
@@ -90,7 +90,7 @@ header {
  background: #F2F2F2;
 }
   
-.container-gallery {
+.containerbox-gallery {
  display: flex;
  justify-content: space-evenly;
  flex-wrap: wrap;
