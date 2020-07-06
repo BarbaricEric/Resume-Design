@@ -167,6 +167,13 @@ header {
  font-weight: 400;
 }
 
+/* Hide Project Contents */
+#tab-1-content,
+#tab-2-content,
+#tab-3-content {
+ display: none;
+}
+
 .showTab {
  display: block !important;
 }
