@@ -11,6 +11,10 @@
  font-family: 'Rancho', sans-serif;
 }
 
+.space-between {
+ padding: 10px;
+}
+
 .container {
  width: 90%;
  max-width: 1200px;
@@ -161,6 +165,10 @@ header {
  margin-top: 10px;
  width: 100%;
  font-weight: 400;
+}
+
+.showTab {
+ display: block !important;
 }
 
 .card {
