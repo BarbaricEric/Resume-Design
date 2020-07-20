@@ -67,6 +67,7 @@
        <img src="img/Image3.png" class="img-gallery" alt="pokemon"/>
        <img src="img/Image2.png" class="img-gallery" alt="batman"/>
        <img src="img/Rose.png" class="img-gallery" alt="rose"/>
+       <img src="img/Arm.png" class="img-gallery" alt="arm"/> 
       </div>
      </div>
   </section>
@@ -98,30 +99,61 @@
   </section>
   
   <section class="container">
-     <!-- <div class="card"> -->
      <section class="experts card">
      <h2 class="subtitle">Project List</h2>
-       <div class="card">
-      <div class="cont-expert-two tab-content-item" id="tab-1-content">
-       <div class="space-between"></div>
-       <img src="img/game2.png" class="cont-expert-two alt="game2"/>
-       <h3 class="n-expert">Objective: Tic Tac Toe</h3>
-        <h3 class="n-expert">Tools: HTML5, CSS3, Javascript</h3>
-        <button onclick="location.href='http://www.example.com'" class="favorite-styled" type="button">GitHub Repository</button>
-        <button onclick="location.href='http://www.example.com'" class="favorite-styled" type="button">Live Demonstration</button>
+      <div id="tab-1-content">
+      <div class="cont-expert-two tab-content-item" >
+        <div class="card"> 
+         <i class="fas fa-search"></i>
+         <h3 class="n-expert">Objective: Tic Tac Toe</h3>
+         <h3 class="n-expert">Tools: HTML5, CSS3, Javascript</h3>
+        </div>
       <div class="space-between"></div>
       <div class="cont-expert-two tab-content-item">
-       <img src="img/game2.png" class="cont-expert-two alt="game2"/>
-       <h3 class="n-expert">Objective: Experience Design Lab</h3>
-        <h3 class="n-expert">Tools: HTML5, CSS3, Javascript, Unity</h3>
-        <button onclick="location.href='http://www.example.com'" class="favorite-styled" type="button">GitHub Repository</button>
-        <button onclick="location.href='http://www.example.com'" class="favorite-styled" type="button">Live Demonstration</button>
+         <div class="card"> 
+          <i class="fas fa-search"></i>
+          <h3 class="n-expert">Objective: Experience Design Lab</h3>
+          <h3 class="n-expert">Tools: HTML5, CSS3, Javascript, Unity</h3>
+        </div>
       </div>
       </div>
-       </div> 
     <div class="space-between"></div>
+        
+     <div id="tab-2-content">
+      <div class="cont-expert-two tab-content-item" >
+        <div class="card"> 
+         <i class="fas fa-search"></i>
+         <h3 class="n-expert">Objective: Test1</h3>
+         <h3 class="n-expert">Tools: HTML5, CSS3, Javascript</h3>
+        </div>
+      <div class="space-between"></div>
+      <div class="cont-expert-two tab-content-item">
+         <div class="card"> 
+          <i class="fas fa-search"></i>
+          <h3 class="n-expert">Objective: Test2</h3>
+          <h3 class="n-expert">Tools: HTML5, CSS3, Javascript, Unity</h3>
+        </div>
+      </div>
+      </div>   
     
-      <div class="card">
+         <div id="tab-3-content">
+      <div class="cont-expert-two tab-content-item" >
+        <div class="card"> 
+         <i class="fas fa-search"></i>
+         <h3 class="n-expert">Objective: Test3</h3>
+         <h3 class="n-expert">Tools: HTML5, CSS3, Javascript</h3>
+        </div>
+      <div class="space-between"></div>
+      <div class="cont-expert-two tab-content-item">
+         <div class="card"> 
+          <i class="fas fa-search"></i>
+          <h3 class="n-expert">Objective: Test4</h3>
+          <h3 class="n-expert">Tools: HTML5, CSS3, Javascript, Unity</h3>
+        </div>
+      </div>
+      </div>   
+       
+     <!-- <div class="card">
       <div class="cont-expert-two tab-content-item" id="tab-2-content">
        <div class="space-between"></div>
        <img src="img/game2.png" class="cont-expert-two alt="game2"/>
@@ -152,7 +184,7 @@
         <button onclick="location.href='https://github.com/BarbaricEric/simple-weathersite'" class="favorite-styled" type="button">GitHub Repository</button>
         <button onclick="location.href='http://www.example.com'" class="favorite-styled" type="button">Live Demonstration</button>
        </div>
-       </div>
+       </div> -->
 
        </section>
 <!--     </div> -->
@@ -169,7 +201,7 @@
    <a href="https://www.github.com/BarbaricEric" class="social-media-icon">
      <i class="fa fa-github"></i>
    </a>
-   <a href="#" class="social-media-icon" onclick="alert('\r\nBusiness Inquiry: ericznguyen@gmail.com \r\n \r\nOther Inquiry: enguyen6@uci.edu');">
+   <a href="#" class="social-media-icon" id="communication"> <!-- onclick="alert('\r\nBusiness Inquiry: ericznguyen@gmail.com \r\n \r\nOther Inquiry: enguyen6@uci.edu');"> -->
      <i class="fa fa-envelope"></i>
    </a>
    <a href="https://www.linkedin.com/in/end" class="social-media-icon">
@@ -181,6 +213,7 @@
   </footer>
   
   <script src="js/menu.js"></script>
+  <script src="js/lightbox.js"></script>     
   <script src="js/main.js"></script>
   </body>  
 </html>
