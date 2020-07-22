@@ -375,7 +375,7 @@ footer {
  }
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 500px) {
  .menu-navigation {
   width: 65vw;
  }
