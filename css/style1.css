@@ -48,6 +48,16 @@ header {
  cursor: pointer;
  border-radius: 10px;
  box-shadow: 0 0 6px rgba (0, 0, 0, 0.5);
+ z-index: 1; 
+}
+
+.menu-navigation {
+ position: fixed;
+}
+
+.menu-navigation ul li {
+ list-style: none;
+ padding: 1.6rem;
 }
 
 .spread {
@@ -307,7 +317,7 @@ footer {
  margin-bottom: 60px;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
  .menu-navigation {
   width: 50vw;
  }
@@ -318,7 +328,7 @@ footer {
  
  .container-service img {
   width: 80%
-  margin-bottom: 40px;
+  maegin-bottom: 40px;
  }
 
  .checklist-service {
@@ -365,7 +375,7 @@ footer {
  }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (min-width: 500px) {
  .menu-navigation {
   width: 65vw;
  }
@@ -381,6 +391,7 @@ footer {
 
  .subtitle {
   font-size: 30px;
+  text-align: center; 
  }
 
  .open-images {
