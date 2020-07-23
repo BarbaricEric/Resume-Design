@@ -60,6 +60,18 @@ header {
  padding: 1.6rem;
 }
 
+.menu-navegacion a{
+ color: #FFFFFF;
+ text-decoration: none;
+ padding: 1rem 2rem;
+ font-size: 1.5rem;
+}
+
+.menu-navegacion ul li a:hover, .menu-navegacion ul li a:active {
+ background: #000000;
+ border-radius: 40em;
+}
+
 .spread {
   transform: translate(0);
 }
@@ -401,7 +413,13 @@ footer {
  .img-gallery {
   width: 95%;
  }
-
+  
+.cont-expert-two-img {
+ width: 80%;
+ display: block;
+ margin: 0 auto;
+}
+  
  .social-media {
   width: 100%;
  }
