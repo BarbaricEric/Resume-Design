@@ -60,14 +60,14 @@ header {
  padding: 1.6rem;
 }
 
-.menu-navegacion a{
+.menu-navigation a {
  color: #FFFFFF;
  text-decoration: none;
  padding: 1rem 2rem;
  font-size: 1.5rem;
 }
 
-.menu-navegacion ul li a:hover, .menu-navegacion ul li a:active {
+.menu-navigation ul li a:hover, .menu-navigation ul li a:active {
  background: #000000;
  border-radius: 40em;
 }
@@ -415,7 +415,7 @@ footer {
  }
   
 .cont-expert-two-img {
- width: 80%;
+ width: 50%;
  display: block;
  margin: 0 auto;
 }
