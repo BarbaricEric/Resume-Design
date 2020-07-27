@@ -341,7 +341,7 @@ footer {
   header {
   background-image: linear-gradient(to top, rgba(161, 140, 209, 0.39) 0%, rgba(251, 194, 235, 0.4) 100%), url("../img/bg-mobile.png");
   width: 100%;
-  height: 50%;  
+  height: 80%;  
  }
   
  .title {
@@ -378,17 +378,17 @@ footer {
  }
 
  .social-media {
-  width: 80%;
+  width: 100%;
   justify-content: space-evenly;
  }
 
  .social-media-icon {
-  margin: 0 30px; 
+  margin: 0 40px; 
   /*margin-left: 0;*/
  }
 
  .social-media i {
-   margin: 0 30px;
+   margin: 0 40px;
   /*margin-left: 0;*/
  }
 
@@ -412,7 +412,7 @@ footer {
   header {
   background-image: linear-gradient(to top, rgba(161, 140, 209, 0.39) 0%, rgba(251, 194, 235, 0.4) 100%), url("../img/bg-mobile2.png");
   width: 100%;
-  height: 50%;  
+  height: 80%;  
  }
 
  .title {
