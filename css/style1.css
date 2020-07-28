@@ -427,12 +427,14 @@ footer {
   justify-content: space-evenly;
  }
 
- .social-media-icon { 
+ .social-media-icon {
+  width: 80%; 
   margin-left: 70px;
  }
 
  .social-media i {
-   margin-left: 50px;
+   width: 80%;
+   margin-left: 40px;
  }
 
  .contact-us {
