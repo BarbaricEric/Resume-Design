@@ -741,7 +741,7 @@ footer {
 }
 
 .support-btn i {
-    line-height: none;
+    line-height: 0px;
     font-size: 10px;
     transition: 0.2s linear;
 }
@@ -751,6 +751,6 @@ footer {
  }
 
  .social-media i {
-   margin-left: 20px;
+   margin-left: 5px;
  }
 }
