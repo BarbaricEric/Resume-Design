@@ -661,6 +661,10 @@ footer {
  .menu-navigation {
   width: 65vw;
  }
+  
+.menu-navigation a {
+    font-size: 1rem;
+}  
 
  .hamburger {
   top: 10px;
