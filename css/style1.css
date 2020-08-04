@@ -710,8 +710,8 @@ footer {
    
 .banner-support {
     position: fixed;
-    width: 100%;
-    height: 100px;
+    width: 50%;
+    height: 50px;
     padding: 0 100px;
     display: flex;
     justify-content: center;
