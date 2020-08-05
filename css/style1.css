@@ -714,7 +714,7 @@ footer {
    
 .banner-support {
     position: fixed;
-    width: 100%;
+    width: 95%;
     height: 100px;
     padding: 0 100px;
     display: flex;
@@ -722,6 +722,7 @@ footer {
     align-items: center;
     background: #111111;
     z-index: 1;
+    margin: 0 auto;
 }
 
 .banner-logo {
