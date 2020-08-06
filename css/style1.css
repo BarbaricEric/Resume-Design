@@ -735,8 +735,8 @@ footer {
     background: #111111;
     z-index: 1;
     margin: 0 50px;
-    border-radius: 10px 10px 40px 40px;
-    border: solid 10px;
+    border-radius: 0px 0px 20px 20px;
+    border: solid 8px;
   }  
 
 .banner-logo {
