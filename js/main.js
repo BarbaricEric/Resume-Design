@@ -13,7 +13,7 @@ function browseView() {
     document.getElementById("supportmessage").innerHTML = "Website may behave differently depending on each user's setting and device";	
 }
 
-broseView();
+browseView();
 
 //Listen for contact link
 communicationSocial.addEventListener('click', ()=>{
