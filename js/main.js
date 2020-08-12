@@ -9,8 +9,8 @@ function selectItem() {
 
 //Warning Message: Supported Browser
 function browseView() {
-    document.getElementById("warningmessage").innerHTML = "For best experience, view on desktop.";
-    document.getElementById("supportmessage").innerHTML = "Website may behave differently depending on each user's setting and device";	
+    document.getElementById("warningmessage").textContent = "For best experience, view on desktop.";
+    document.getElementById("supportmessage").textContent = "Website may behave differently depending on each user's setting and device";	
 }
 
 browseView();
