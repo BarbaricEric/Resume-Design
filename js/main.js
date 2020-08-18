@@ -1,6 +1,7 @@
 const tabItems = document.querySelectorAll('.tab-item');
 const tabContentItems = document.querySelectorAll('.tab-content-item');
 const communicationSocial = document.getElementById("communication");
+const BROSWERSUPPORT = document.querySelector('.banner-support');
 
 //View tab content
 function selectItem() {
@@ -10,14 +11,17 @@ function selectItem() {
 //Warning Message: Supported Browser
 function browseView() {
     document.getElementById("warningmessage").textContent = "For best experience, view on desktop.";
-    document.getElementById("supportmessage").textContent = "Website may behave differently depending on each user's setting and device";	
+    document.getElementById("supportmessage").textContent = "Website may behave differently depending on each user's setting and device";
+    BROSWERSUPPORT.style.display = 'none';
 }
 
-browseView();
+//Browser Support Banner
+setTimeout(() => {browseView();}, 5.0*1000);
 
 //Listen for contact link
 communicationSocial.addEventListener('click', ()=>{
-	alert ("\r\n \r\nBusiness Inquiry: ericznguyen@gmail.com \r\n \r\nOther Inquiry: enguyen6@uci.edu");
+	//alert ("\r\n \r\nBusiness Inquiry: ericznguyen@gmail.com \r\n \r\nOther Inquiry: enguyen6@uci.edu");
+	  alert ("\r\nCommunication Inquiry: ericznguyen@gmail.com");
 })
 
 // Listen for tab click
