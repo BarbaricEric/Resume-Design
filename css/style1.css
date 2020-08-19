@@ -466,6 +466,19 @@ header {
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
 
+.project-button {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+}
+
 /* Popup */
 .communication-popup {
  display: none;
@@ -771,6 +784,6 @@ footer {
  }
 
  .social-media i {
-   margin-left: 5px;
+   margin-left: 1px; 
  }
 }
