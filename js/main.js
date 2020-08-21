@@ -8,6 +8,10 @@ function selectItem() {
   
 }
 
+function removeShow() {
+ tabContentItems.forEach(item => item.classList.remove('showTab'));
+}
+
 //Warning Message: Supported Browser
 function browseView() {
     document.getElementById("warningmessage").textContent = "For best experience, view on desktop.";
