@@ -563,8 +563,10 @@ footer {
  margin-left: 20px;
  width: 60px;
  height: 60px;
- border: 1px solid #FFFFFF;
- border-radius: 50%;
+ border: 5px solid #FFFFFF;
+ border-radius: 5px; 
+ /* border: 1px solid #FFFFFF;
+ border-radius: 50%; */
  text-align: center;
  color: #FFFFFF;
 }
