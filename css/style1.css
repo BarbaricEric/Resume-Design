@@ -148,7 +148,8 @@ header {
  right: 0;
  width: 30vw;
  height: 100%;
- background-image: linear-gradient(135deg, #667EEA 0%, #764BA2 100%);
+ background-image: linear-gradient(185deg, #667EEA 0%, #008880 100%); 
+ /*background-image: linear-gradient(135deg, #667EEA 0%, #764BA2 100%);*/
  display: flex;
  flex-direction: column;
  justify-content: space-evenly;
@@ -208,7 +209,7 @@ header {
  font-weight: 300;
  color: #9F8AD0;
  margin-bottom: 40px;
- font-size: 40px;
+ font-size: 50px;
 }
 
 .container-service {
@@ -405,7 +406,7 @@ header {
 
 /* Footer */
 footer {
- background: #9F8AD0;
+ background: #008880 /*#9F8AD0*/;
  padding-bottom: 0.1px;
 }
   
@@ -430,6 +431,7 @@ footer {
 
 .brand+p {
  font-weight: 500;
+ font-size: 25px; 
 }
 
 .social-media {
