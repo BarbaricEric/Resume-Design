@@ -37,7 +37,7 @@
  display: flex;
  justify-content: center;
  align-items: center;
- background: ##3A3737;
+ background: #3E3E3E;
  z-index: 1;
 }
 
@@ -503,7 +503,9 @@ footer {
  }
   
  .banner-logo {
-  top: 0px;
+    top: 50px;
+    width: 110px;
+    height: 110px;
 }
   
   header {
