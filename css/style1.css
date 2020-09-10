@@ -45,8 +45,8 @@
  position: fixed;
  top: 50px;
  left: 30px;
- width: 80px;
- height: 80px; 
+ width: 100px;
+ height: 100px; 
  /*height: 50px;
  width: 50px; 
  padding: 0 900px 0 100px;*/
@@ -187,8 +187,19 @@ filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(108deg) brightness(104%
 
 .menu-navigation ul li a:hover, .menu-navigation ul li a:active {
  background: #000000;
- border-radius: 40em;
+ border: 5px solid;
+ border-radius: 5px; 
+ /*border-radius: 40em;*/
 }
+
+.menu-close {
+ position: absolute;
+ top: 15px;
+ left: 15px;
+ width: 50px;
+ cursor: pointer;
+ filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(108deg) brightness(104%) contrast(104%);
+} 
 
 .spread {
   transform: translate(0);
