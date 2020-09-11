@@ -142,6 +142,15 @@ header {
  z-index: 1; 
 }
 
+.hamburger-text {
+ position: fixed;
+ top: 30px;
+ right: 40px;
+ color: #FFFFFF;
+ cursor: pointer;
+ z-index: 1; 
+}
+
 .menu-hamburger {
 position: fixed;
 top: 30px;
@@ -199,6 +208,14 @@ filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(108deg) brightness(104%
  width: 50px;
  cursor: pointer;
  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(108deg) brightness(104%) contrast(104%);
+}
+
+.menu-close-text {
+ position: absolute;
+ top: 25px;
+ left: 45px;
+ cursor: pointer;
+ color: #FFFFFF;
 } 
 
 .spread {
