@@ -144,9 +144,9 @@ header {
 
 .hamburger-text {
  position: fixed;
- top: 35px;
+ top: 38px;
  right: 80px;
- color: #FFFFFF;
+ color: #000000;
  cursor: pointer;
  z-index: 1; 
 }
@@ -212,7 +212,7 @@ filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(108deg) brightness(104%
 
 .menu-close-text {
  position: absolute;
- top: 25px;
+ top: 28px;
  left: 70px;
  cursor: pointer;
  color: #FFFFFF;
