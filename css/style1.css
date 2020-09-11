@@ -144,8 +144,8 @@ header {
 
 .hamburger-text {
  position: fixed;
- top: 30px;
- right: 40px;
+ top: 35px;
+ right: 80px;
  color: #FFFFFF;
  cursor: pointer;
  z-index: 1; 
@@ -213,7 +213,7 @@ filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(108deg) brightness(104%
 .menu-close-text {
  position: absolute;
  top: 25px;
- left: 45px;
+ left: 70px;
  cursor: pointer;
  color: #FFFFFF;
 } 
@@ -611,6 +611,11 @@ footer {
   top: 10px;
   right: 20px;
  }
+  
+ .hamburger-text {
+  top: 15px;
+  right: 70px; 
+} 
   
   header {
   background-image: url("../img/bg-mobile.png");
