@@ -212,7 +212,7 @@ filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(108deg) brightness(104%
 
 .menu-close-text {
  position: absolute;
- top: 28px;
+ top: 20px;
  left: 70px;
  cursor: pointer;
  color: #FFFFFF;
