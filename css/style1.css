@@ -52,7 +52,7 @@
  position: absolute;
  top: 50%;
  transform: translateY(-50%);
- width: 100;
+ /* width: 100; */
  text-align: center;
 }  
 
@@ -657,16 +657,19 @@ footer {
  
 .banner-support {
     position: fixed;
-    width: 70%;
+    width: 73%;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #555555;
+    background: #004159;
     z-index: 1;
-    margin: 0 50px;
-    border-radius: 0px 0px 20px 20px;
+    margin-left: 13.5%;
+    border-radius: 20px 20px 0px 0px;
     border: solid 8px;
+    /* min-width: 320px;
+    background: #555555;
+    margin: 0 50px; */
   }
   
 .browser-support-icon h1 {
@@ -679,8 +682,8 @@ footer {
 
 .support-btn {
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     background: #F1F1F1;
     margin: 10px;
     border-radius: 30%;
@@ -691,8 +694,8 @@ footer {
 }
 
 .support-btn i {
-    line-height: 0px;
-    font-size: 10px;
+    line-height: 30px;
+    font-size: 20px;
     transition: 0.2s linear;
 }
    
