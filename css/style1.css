@@ -39,11 +39,12 @@
  align-items: center;
  background: #3E3E3E;
  z-index: 1;
+ bottom: 0px; 
 }
 
 .banner-logo {
  position: fixed;
- top: 50px;
+ bottom: 50px;
  left: 30px; 
 }
 
