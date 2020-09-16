@@ -483,6 +483,11 @@ footer {
  display: flex;
 }
 
+.social-media-list-alt {
+ list-style: none;
+ display: table-column; 
+}
+
 .social-media-icon {
  display: inline-block;
  margin-left: 20px;
