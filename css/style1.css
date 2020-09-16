@@ -120,7 +120,7 @@ header {
  background-image: linear-gradient(to top, rgba(161, 140, 209, 0.39) 0%, rgba(251, 194, 235, 0.4) 100%), url("../img/bg.jpg");
  background-repeat: no-repeat;
  background-size: cover;
- background-attachment: fixed;
+ /* background-attachment: fixed; */
  background-position: center;
 }
 
@@ -478,6 +478,11 @@ footer {
  justify-content: flex-end; 
 }
 
+.social-media-list {
+ list-style: none;
+ display: flex;
+}
+
 .social-media-icon {
  display: inline-block;
  margin-left: 20px;
@@ -568,7 +573,8 @@ footer {
  }
 
  .social-media-icon { 
-  margin-left: 0px;
+  margin-left: 40px;
+  margin-right: 40px;
  }
 
  .social-media i {
@@ -701,9 +707,11 @@ footer {
    
  .social-media-icon { 
   margin-left: 20px;
+  margin-right: 20px;
  }
 
  .social-media i {
-   margin-left: 1px; 
+   margin-left: 1px;
+   margin-right: 1px;
  }
 }
