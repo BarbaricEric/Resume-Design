@@ -515,7 +515,7 @@ footer {
  margin-bottom: 60px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 823px) {
  .menu-navigation {
   width: 50vw;
  }
@@ -525,7 +525,7 @@ footer {
  }  
   
  .banner-logo {
-    top: 50px;
+    bottom: 50px;
 }
   
  header {
