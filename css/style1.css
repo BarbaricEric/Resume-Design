@@ -208,8 +208,8 @@ filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(108deg) brightness(104%
 
 .menu-close-text {
  position: absolute;
- top: 20px;
- left: 70px;
+ top: 60px;
+ left: 20px;
  cursor: pointer;
  color: #FFFFFF;
 } 
@@ -519,6 +519,10 @@ footer {
  .menu-navigation {
   width: 50vw;
  }
+  
+ .menu-navigation ul li {
+    padding: 0.4rem;
+ }  
   
  .banner-logo {
     top: 50px;
