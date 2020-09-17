@@ -175,7 +175,8 @@ filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(108deg) brightness(104%
  transition: transform .3s ease-in-out;
  transform: translate(110%);
  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
- z-index: 1;  
+ z-index: 1;
+ border-radius: 3px; 
 }
 
 .menu-navigation ul li {
@@ -537,7 +538,7 @@ footer {
  header {
   position: relative;
   width: 100%;
-  background-image: linear-gradient(to top, rgba(161, 140, 209, 0.39) 0%, rgba(0, 136, 128, 0.4) 100%), url(../img/bg-mobile.png);
+  background-image: linear-gradient(to top, rgba(161, 140, 209, 0.39) 0%, rgba(0, 136, 128, 0.4) 100%), url(../img/bg-mobile.jpg);
  }
   
 .card {
