@@ -126,12 +126,10 @@ header {
 
 /* Navigation Bar */
 .hamburger-holder {
- background: #969696;
- border: 5px solid;
- top: 10px;
- right: 20px;
- height: 60px;
- margin-left: 60%;
+ background: #000000;
+ height: 80px;
+ position: fixed;
+ width: 100%;
 }
 
 .hamburger {
@@ -151,7 +149,7 @@ header {
  position: fixed;
  top: 38px;
  right: 80px;
- color: #000000;
+ color: #FFFFFF;
  cursor: pointer;
  z-index: 1; 
 }
@@ -617,8 +615,12 @@ footer {
   
 .menu-navigation a {
     font-size: 1rem;
-}  
-
+}
+  
+.hamburger-holder {
+ height: 60px;
+}
+  
  .hamburger {
   top: 10px;
   right: 20px;
