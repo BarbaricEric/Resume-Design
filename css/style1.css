@@ -135,7 +135,7 @@ header {
 
 .hamburger {
  position: fixed;
- top: 30px;
+ top: 20px;
  right: 30px;
  background: #FFFFFF;
  width: 40px;
@@ -148,7 +148,7 @@ header {
 
 .hamburger-text {
  position: fixed;
- top: 38px;
+ top: 28px;
  right: 80px;
  color: #FFFFFF;
  cursor: pointer;
