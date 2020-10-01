@@ -1,0 +1,15 @@
+https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior
+
+https://greensock.com/forums/topic/20020-swiper-slider-and-tweenmax-drag/
+
+https://www.tutorialsteacher.com/d3js/animated-bar-chart-d3
+
+https://www.d3-graph-gallery.com/graph/histogram_basic.html
+
+https://observablehq.com/@d3/bar-chart
+
+https://www.tutorialspoint.com/d3js/index.htm
+
+https://swiperjs.com/demos/#thumbs_gallery
+
+https://swiperjs.com/api/
