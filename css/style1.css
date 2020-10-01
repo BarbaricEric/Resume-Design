@@ -155,6 +155,10 @@ header {
  z-index: 1; 
 }
 
+#assoptions {
+ right: 150px;
+}
+
 .menu-hamburger {
 position: fixed;
 top: 30px;
