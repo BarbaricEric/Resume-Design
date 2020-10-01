@@ -13,14 +13,14 @@ function removeShow() {
 }
 
 //Warning Message: Supported Browser
-function browseView() {
+async function browseView() {
     document.getElementById("warningmessage").textContent = "For best interactive experience, view on desktop.";
     document.getElementById("supportmessage").textContent = "Website may behave differently depending on each user's setting and device";
     BROSWERSUPPORT.style.display = 'none';
 }
 
 //Browser Support Banner
-setTimeout(() => {browseView();}, 5.0*1000);
+setTimeout(() => {browseView();}, 3.0*1000);
 
 //Listen for contact link
 communicationSocial.addEventListener('click', ()=>{
