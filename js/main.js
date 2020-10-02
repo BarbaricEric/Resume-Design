@@ -20,7 +20,7 @@ async function browseView() {
 }
 
 //Browser Support Banner
-setTimeout(() => {browseView();}, 3.0*1000);
+setTimeout(() => {browseView();}, 5.0*1000);
 
 //Listen for contact link
 communicationSocial.addEventListener('click', ()=>{
