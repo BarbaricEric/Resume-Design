@@ -124,7 +124,7 @@ header {
  background-position: center;
 }
 
-/* Navigation Bar */
+/* Hamburger Menu */
 .hamburger-holder {
  background: #000000;
  height: 80px;
@@ -157,8 +157,77 @@ header {
 
 #assoptions {
  right: 150px;
+ border: 3px solid;
+ border-radius: 10px;
+ padding: 3px 3px;
+ top: 23px; 
 }
 
+.switch {
+ position: relative;
+ display: inline-block;
+ width: 110px;
+ height: 60px;
+ margin: 0 10px; 
+}
+
+.opt-slider {
+ position: absolute;
+ cursour: pointer;
+ top: 0;
+ right: 0;
+ bottom: 0;
+ left: 0;
+ background-color: #CCCCCC;
+ transition: 0.4s;
+ border-radius: 34px; 
+}
+
+.switch input {display: none}
+
+.opt-slider:before {
+ position: absolute;
+ content: "";
+ height: 50px;
+ width: 50px;
+ left: 5px;
+ bottom: 5px;
+ background-color: #FFFFFF;
+ transition: 0.4s; 
+ border-radius: 50px; 
+}
+
+input:checked + .opt-slider {
+ background-color: #26ff5c;
+}
+
+input:checked + .opt-slider:before {
+ transform: translateX(50px);
+}
+
+.options-list {
+ position: absolute;
+ top: -100%;
+ left: 0;
+ width: 100%;
+ height: calc(100vh - 80px);
+ padding: 50px 100px;
+ text-align: center;
+ overflow: auto;
+ transition: 0.5s;
+ background: #111111;
+ flex-direction: column;
+ opacity: 0;
+ transform: translateY(-100%);
+}
+
+.active {
+  transform: translateY(0);
+  top: 0px;
+  opacity: 1;
+}
+
+/* Navigation Menu */
 .menu-hamburger {
 position: fixed;
 top: 30px;
@@ -204,10 +273,10 @@ filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(108deg) brightness(104%
 }
 
 .menu-navigation ul li a:hover, .menu-navigation ul li a:active {
- background: #000000;
  border: 5px solid;
  border-radius: 5px; 
- /*border-radius: 40em;*/
+ /* border-radius: 40em;
+ background: #000000; */
 }
 
 .menu-close {
@@ -634,7 +703,11 @@ footer {
  .hamburger-text {
   top: 15px;
   right: 70px; 
-} 
+}
+  
+  #assoptions {
+   top: 10px;
+}  
   
   header {
   /*background-image: url("../img/bg-mobile.png");
