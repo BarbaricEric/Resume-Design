@@ -402,7 +402,7 @@ filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(108deg) brightness(104%
 /* About Me */
 .subtitle {
  text-align: center !important;
- font-weight: 300;
+ font-weight: 600;
  color: #6822b5; /* #9F8AD0 */
  margin-bottom: 40px;
  font-size: 50px;
@@ -801,7 +801,7 @@ footer {
  }
 
  .subtitle {
-  font-size: 30px;
+  font-size: 40px;
   text-align: center; 
  }
 
