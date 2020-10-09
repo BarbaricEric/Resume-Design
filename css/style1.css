@@ -250,7 +250,7 @@ input:checked + .opt-slider:before {
 
 .accordion-btn {
  display: block;
- padding: 16px 20px;
+ padding: 76px 20px;
  background: #34495E;
  color: #FFFFFF;
  position: relative; 
@@ -260,8 +260,8 @@ input:checked + .opt-slider:before {
  content: '';
  position: absolute; 
  background: #34495E;
- width: 14px;
- height: 14px;
+ width: 34px;
+ height: 34px;
  left: 20px;
  bottom: -7px;
  transform: rotate(45deg); 
@@ -282,9 +282,9 @@ input:checked + .opt-slider:before {
  display: block;
  color: #FFFFFF;
  padding: 16px 26px;
- font-szie: 14px;
+ font-size: 14px;
  margin: 4px 0;
- postion: relative;
+ position: relative;
 }
 
 .sub-menu a::before {
@@ -304,7 +304,7 @@ input:checked + .opt-slider:before {
 }
 
 .accordion-item:target .sub-menu {
- max-height: 10em;
+ max-height: 100%;
 }
 
 /* Navigation Menu */
@@ -349,7 +349,7 @@ filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(108deg) brightness(104%
 .menu-navigation a {
  color: #FFFFFF;
  text-decoration: none;
- padding: 1rem 2rem;
+ padding: 1rem 2rem; /* Remove for accordion menu */
  font-size: 1.5rem;
 }
 
