@@ -1,6 +1,7 @@
 const hamburger = document.querySelector('.hamburger');
 const menu = document.querySelector('.menu-navigation');
 const hamburgertext = document.querySelector('.hamburger-text');
+const exitmenu = document.querySelector('#logout');
 
 hamburger.addEventListener('click', ()=>{
 	menu.classList.toggle("spread")
