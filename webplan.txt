@@ -31,3 +31,4 @@ http://letsplay.ouigo.com/
 
 https://createjs.com/docs/easeljs/classes/Graphics.html
 
+https://jsfiddle.net/8kubjpL5/
