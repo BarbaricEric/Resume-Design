@@ -2,6 +2,7 @@ const hamburger = document.querySelector('.hamburger');
 const menu = document.querySelector('.menu-navigation');
 const hamburgertext = document.querySelector('.hamburger-text');
 const exitmenu = document.querySelector('#logout');
+const accordionitem = document.querySelector('.accordion-item');
 
 hamburger.addEventListener('click', ()=>{
 	menu.classList.toggle("spread")
