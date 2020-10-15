@@ -249,11 +249,13 @@ input:checked + .opt-slider:before {
 }
 
 .accordion-btn {
- display: block;
- padding: 76px 20px;
+ display: flex;
+ align-items: center; 
+ padding: 36px 20px;
  background: #34495E;
  color: #FFFFFF;
  position: relative; 
+ height: 16vh; 
 }
 
 .accordion-btn::before {
