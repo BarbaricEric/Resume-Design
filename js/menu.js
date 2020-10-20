@@ -14,8 +14,9 @@ hamburgertext.addEventListener('click', ()=>{
 
 window.addEventListener('click', e=>{
 	if(menu.classList.contains('spread')
-	 && e.target != menu && e.target != hamburger && e.target != hamburgertext ){
-	 
+	 //&& e.target != menu && e.target != hamburger && e.target != hamburgertext ){
+	 && e.target != hamburger && e.target != hamburgertext ){
+		
          menu.classList.toggle("spread")
 	
 	}
