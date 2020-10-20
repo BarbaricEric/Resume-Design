@@ -3,7 +3,7 @@ const menu = document.querySelector('.menu-navigation');
 const hamburgertext = document.querySelector('.hamburger-text');
 const exitmenu = document.querySelector('#logout');
 const accordionitem = document.querySelector('.accordion-container');
-const navbarco = document.querySelector('social-media-list-alt');
+const navbarco = document.querySelector('.social-media-list-alt');
 
 hamburger.addEventListener('click', ()=>{
 	menu.classList.toggle("spread")
