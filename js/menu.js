@@ -29,7 +29,7 @@ window.addEventListener('click', e=>{
 }) */
 
 window.addEventListener('click', e=>{
-	if(e.target = hamburger || e.target = hamburgertext ){
+	if(e.target == hamburger || e.target == hamburgertext ){
 		
          menu.classList.toggle("spread")
 	
