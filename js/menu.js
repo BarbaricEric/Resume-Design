@@ -13,7 +13,12 @@ hamburgertext.addEventListener('click', ()=>{
 	menu.classList.toggle("spread")
 })
 
-window.addEventListener('click', e=>{
+exitmenu.addEventListener('click', ()=>{
+	menu.classList.toggle("spread")
+})
+
+
+/*window.addEventListener('click', e=>{
 	if(menu.classList.contains('spread')
 	 //&& e.target != menu && e.target != hamburger && e.target != hamburgertext ){
 	 && (e.target = hamburger || e.target = hamburgertext ){
@@ -21,4 +26,4 @@ window.addEventListener('click', e=>{
          menu.classList.toggle("spread")
 	
 	}
-})
+}) */
