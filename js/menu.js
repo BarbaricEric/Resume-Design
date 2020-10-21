@@ -5,7 +5,7 @@ const exitmenu = document.querySelector('#logout');
 const accordionitem = document.querySelector('.accordion-container');
 const navbarco = document.querySelector('.social-media-list-alt');
 
-hamburger.addEventListener('click', ()=>{
+/*hamburger.addEventListener('click', ()=>{
 	menu.classList.toggle("spread")
 })
 
@@ -18,12 +18,20 @@ exitmenu.addEventListener('click', ()=>{
 })
 
 
-/*window.addEventListener('click', e=>{
+window.addEventListener('click', e=>{
 	if(menu.classList.contains('spread')
-	 //&& e.target != menu && e.target != hamburger && e.target != hamburgertext ){
-	 && (e.target = hamburger || e.target = hamburgertext ){
+	 && e.target != menu && e.target != hamburger && e.target != hamburgertext ){
+	 //&& (e.target = hamburger || e.target = hamburgertext ){
 		
          menu.classList.toggle("spread")
 	
 	}
 }) */
+
+window.addEventListener('click', e=>{
+	if(e.target = hamburger || e.target = hamburgertext ){
+		
+         menu.classList.toggle("spread")
+	
+	}
+})
