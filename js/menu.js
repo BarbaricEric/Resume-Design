@@ -7,7 +7,7 @@ const navbarco = document.querySelector('.social-media-list-alt');
 const closeone = document.querySelector('.menu-close');
 const closetwo = document.querySelector('.menu-close-text');
 
-hamburger.addEventListener('click', ()=>{
+/*hamburger.addEventListener('click', ()=>{
 	menu.classList.toggle("spread")
 })
 
@@ -20,7 +20,7 @@ exitmenu.addEventListener('click', ()=>{
 })
 
 
-/*window.addEventListener('click', e=>{
+window.addEventListener('click', e=>{
 	if(menu.classList.contains('spread')
 	 && e.target != menu && e.target != hamburger && e.target != hamburgertext ){
 	 //&& (e.target = hamburger || e.target = hamburgertext ){
@@ -32,9 +32,10 @@ exitmenu.addEventListener('click', ()=>{
 
 window.addEventListener('click', e=>{
 	
-	if(e.target == hamburger || e.target == hamburgertext || e.target == closeone || e.target == closetwo ){
-		
-         menu.classList.toggle("spread")
-	
+	if(e.target == hamburger && e.target == hamburgertext){
+         menu.classList.add("spread");
+	} else(e.target == exitmenu && e.target == closeone && e.target == closetwo) {
+         menu.classList.remove("spread");
 	}
+	
 })
