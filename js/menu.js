@@ -17,7 +17,7 @@ hamburgertext.addEventListener('click', ()=>{
 
 exitmenu.addEventListener('click', ()=>{
 	menu.classList.toggle("spread")
-})
+})*/
 
 
 window.addEventListener('click', e=>{
@@ -28,9 +28,9 @@ window.addEventListener('click', e=>{
          menu.classList.toggle("spread")
 	
 	}
-}) */
+}) 
 
-window.addEventListener('click', e=>{
+/*window.addEventListener('click', e=>{
 	
 	if(e.target == hamburger) {
          menu.classList.add("spread");
@@ -47,4 +47,4 @@ window.addEventListener('click', e=>{
 	} else(e.target == closetwo) {
 	 menu.classList.remove("spread");
         }
-})
+})*/
