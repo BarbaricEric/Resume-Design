@@ -32,10 +32,19 @@ window.addEventListener('click', e=>{
 
 window.addEventListener('click', e=>{
 	
-	if(e.target == hamburger && e.target == hamburgertext){
+	if(e.target == hamburger) {
          menu.classList.add("spread");
-	} else(e.target == exitmenu && e.target == closeone && e.target == closetwo) {
+		
+	} else if(e.target == hamburgertext) {
+	 menu.classList.add("spread");
+		
+	} else if(e.target == exitmenu) { 
          menu.classList.remove("spread");
-	}
+		
+	} else if(e.target == closeone
+	 menu.classList.remove("spread");
 	
+	} else(e.target == closetwo) {
+	 menu.classList.remove("spread");
+        }
 })
