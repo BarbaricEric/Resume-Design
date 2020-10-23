@@ -7,7 +7,7 @@ const navbarco = document.querySelector('.social-media-list-alt');
 const closeone = document.querySelector('.menu-close');
 const closetwo = document.querySelector('.menu-close-text');
 
-/*hamburger.addEventListener('click', ()=>{
+hamburger.addEventListener('click', ()=>{
 	menu.classList.toggle("spread")
 })
 
@@ -17,7 +17,7 @@ hamburgertext.addEventListener('click', ()=>{
 
 exitmenu.addEventListener('click', ()=>{
 	menu.classList.toggle("spread")
-})*/
+})
 
 
 window.addEventListener('click', e=>{
