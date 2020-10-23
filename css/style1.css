@@ -329,8 +329,8 @@ filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(108deg) brightness(104%
  right: 0;
  width: 30vw; /* 400px */
  height: 100%;
- background-image: linear-gradient(185deg, #667EEA 0%, #008880 100%); 
- /*background-image: linear-gradient(135deg, #667EEA 0%, #764BA2 100%);*/
+ /*background-image: linear-gradient(185deg, #667EEA 0%, #008880 100%); 
+ background-image: linear-gradient(135deg, #667EEA 0%, #764BA2 100%);*/
  display: flex;
  flex-direction: column;
  justify-content: space-evenly;
@@ -339,7 +339,7 @@ filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(108deg) brightness(104%
  transform: translate(110%);
  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
  z-index: 1;
- border-radius: 3px; 
+ /*border-radius: 3px;*/ 
  overflow: scroll; 
 }
 
@@ -351,7 +351,7 @@ filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(108deg) brightness(104%
 .menu-navigation a {
  color: #FFFFFF;
  text-decoration: none;
- padding: 1rem 2rem; /* Remove for accordion menu */
+ /*padding: 1rem 2rem;  Remove for accordion menu */
  font-size: 1.5rem;
 }
 
