@@ -14,6 +14,13 @@
 
 .normal {
   font-family: Times New Roman, sans-serif;
+  text-decoration: none;
+}
+
+.normal-btn {
+  font-family: Times New Roman, sans-serif;
+  text-decoration: none;
+  padding: 7px 60px;
 }
 
 .space-between {
