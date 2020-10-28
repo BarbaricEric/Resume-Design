@@ -20,7 +20,9 @@
 .normal-btn {
   font-family: Times New Roman, sans-serif;
   text-decoration: none;
-  padding: 7px 60px;
+  padding: 7px 15px !important;
+  align-items: center;
+  display: flex;
 }
 
 .space-between {
@@ -909,6 +911,12 @@ footer {
    margin-right: 1px;
  }
 }
+
+@media screen and (max-width: 454px) {
+  .noraml-btn { 
+   padding: 7px 45px !important; 
+  }
+}  
 
 @media screen and (max-width: 320px) {
   header { 
