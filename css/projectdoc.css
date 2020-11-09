@@ -26,3 +26,10 @@
  flex-direction: column;
  justify-content: space-between;
 }
+
+.right-container {
+ position: relative;
+ background-color: white;
+ height: 100%;
+ width: 70vw;
+}
