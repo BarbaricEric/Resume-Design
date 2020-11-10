@@ -15,6 +15,9 @@ contentLight.addEventListener('click', (e)=>{
 
 
 const appendImages = (images)=>{
-	
+	imagesLight.src = images
+	contentLight.classList.toggle('show')
+	imagesLight.classList.toggle('showImage')
+	hamburger1.style.opacity = '0'	
 } 
 */
