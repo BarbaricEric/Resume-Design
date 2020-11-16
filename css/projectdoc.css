@@ -33,3 +33,15 @@
  height: 100%;
  width: 70vw;
 }
+
+.logo {
+ padding: 3rem;
+ font-size: 2rem;
+ font-family: "helvetica";
+}
+
+.info {
+ display: flex;
+ padding: 3rem;
+ font-size: 1rem;
+}
