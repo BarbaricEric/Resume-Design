@@ -45,3 +45,16 @@
  padding: 3rem;
  font-size: 1rem;
 }
+
+.info a {
+ text-decoration: none;
+ margin-left: 1rem;
+ color: white;
+}
+
+.story {
+ position: absolute;
+ height: 40%;
+ left: 30vw;
+ top: 30vh;
+}
