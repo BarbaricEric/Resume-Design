@@ -87,3 +87,25 @@
  width: 50px;
  height: 5px;
 }
+
+.menu {
+ position: relative;
+ transform: translateY(20px);
+ background: black;
+}
+
+.menu:before {
+ content: "";
+ position: absolute;
+ left: 0;
+ bottom: 15px;
+ background: black;
+}
+
+.menu:after {
+ content: "";
+ position: absolute;
+ left: 0;
+ top: 15px;
+ background: black;
+}
