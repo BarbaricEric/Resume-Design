@@ -12,7 +12,11 @@ images.forEach(images =>{
 })
 
 contentLight.addEventListener('click', (e)=>{
-	
+	if(e.target !== imagesLight){
+	 contentLight.classList.toggle('show')
+	 imagesLight.classList.toggle('showImage')
+	 hamburger1.style.opacity = '1'
+	}	
 })
 
 
