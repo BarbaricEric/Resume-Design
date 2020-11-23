@@ -109,3 +109,20 @@
  top: 15px;
  background: black;
 }
+
+.social-container {
+ position: absolute;
+ bottom: 2rem;
+ right: 2rem;
+}
+
+.social {
+ display: flex;
+}
+
+.social ul {
+ margin-right: 1rem;
+ font-weight: 700;
+ font-family: "helvetica";
+ list-style: none;
+}
