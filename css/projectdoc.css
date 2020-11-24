@@ -126,3 +126,27 @@
  font-family: "helvetica";
  list-style: none;
 }
+
+.first-block {
+ position: absolute;
+ width: 0%;
+ height: 100vh;
+ background: black;
+ animation: go-left 4s cubic-bezier(0.74, 0.06, 0.4, 0.92) normal;
+ left: 0;
+}
+
+@keyframes go-left {
+ 0% {
+  left: 0;
+  width: 0%;
+ }
+ 50% {
+  left: 0;
+  width: 100%;
+ }
+ 100% {
+  left: 100%;
+  width: 0;
+ }
+}
