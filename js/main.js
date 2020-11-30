@@ -23,13 +23,13 @@ async function browseView() {
 //Browser Support Banner
 setTimeout(() => {browseView();}, 5.0*1000);
 
-//Listen for contact link
+//Listen for email click link
 communicationSocial.addEventListener('click', ()=>{
 	//alert ("\r\n \r\nBusiness Inquiry: ericznguyen@gmail.com \r\n \r\nOther Inquiry: enguyen6@uci.edu");
 	  alert ("\r\nCommunication Inquiry: ericznguyen@gmail.com");
 })
 
-//Listen for contact link
+//Listen for main site click link
 mainsite.addEventListener('click', ()=>{
 	const url = 'https://www.endesign.tk';
         const win = window.open(url, '_blank');
