@@ -467,7 +467,7 @@ filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(108deg) brightness(104%
  cursor: pointer;
 }
   
-/*.images-light {
+.images-light {
  position: fixed;
  background: rgba(0,0,0,0.6);
  width: 100%;
@@ -495,7 +495,7 @@ filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(108deg) brightness(104%
 
 .showImage {
  transform: scale(1);
-}*/
+}
   
 .close {
  position: absolute;
