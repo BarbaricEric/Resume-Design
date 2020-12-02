@@ -4,9 +4,9 @@ const imagesLight = document.querySelector('.images-light');
 const contentLight = document.querySelector('.open-images');
 const hamburger1 = document.querySelector('.hamburger');
 
-images.forEach((images) =>{
-	images.addEventListener('click', ()=>{
-	 appendImages(images.getAttribute('src'))
+images.forEach(imagePort =>{
+	imagePort.addEventListener('click', ()=>{
+	 appendImages(imagePort.getAttribute('src'))
 	})
 })
 
