@@ -1,12 +1,12 @@
 //DOM Elements
-const images = document.querySelector('.img-gallery');
+const images = document.querySelectorAll('.img-gallery');
 const imagesLight = document.querySelector('.images-light');
 const contentLight = document.querySelector('.open-images');
 const hamburger1 = document.querySelector('.hamburger');
 
-images.forEach(imagePort =>{
-	imagePort.addEventListener('click', ()=>{
-	 appendImages(imagePort.getAttribute('src'))
+images.forEach(images =>{
+	images.addEventListener('click', ()=>{
+	 appendImages(images.getAttribute('src'))
 	})
 })
 
