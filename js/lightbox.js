@@ -12,15 +12,15 @@ images.forEach(images =>{
 
 contentLight.addEventListener('click', (e)=>{
 	if(e.target !== imagesLight){
-	 contentLight.classList.toggle('show')
-	 imagesLight.classList.toggle('showImage')
+	 contentLight.classList.toggle('showImage')
+	 imagesLight.classList.toggle('show')
 	 hamburger1.style.opacity = '1'
 	}	
 })
 
 const appendImages = (images)=>{
 	imagesLight.src = images
-	contentLight.classList.toggle('show')
-	imagesLight.classList.toggle('showImage')
+	contentLight.classList.toggle('showImage')
+	imagesLight.classList.toggle('show')
 	hamburger1.style.opacity = '0'	
 } 
