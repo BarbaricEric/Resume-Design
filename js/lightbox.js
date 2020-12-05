@@ -1,7 +1,7 @@
 //DOM Elements
 const images = document.querySelectorAll('.img-gallery');
-const imagesLight = document.querySelector('.open-images');
-const contentLight = document.querySelector('.images-light');
+const imagesLight = document.querySelector('.images-light');
+const contentLight = document.querySelector('.open-images');
 const hamburger1 = document.querySelector('.hamburger');
 
 images.forEach(images =>{
