@@ -10,7 +10,7 @@ images.forEach(images =>{
 	})
 })
 
-imagesLight.addEventListener('click', (e)=>{
+window.addEventListener('click', (e)=>{
 	if(e.target !== contentLight){
 	 imagesLight.classList.toggle('show')
 	 contentLight.classList.toggle('showImage')
