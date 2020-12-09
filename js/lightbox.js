@@ -16,7 +16,7 @@ imagesLight.addEventListener('click', (e)=>{
 	 imagesLight.classList.toggle('show')
 	 contentLight.classList.toggle('showImage')
 	 hamburgerHold.style.opacity = '1'
-	 cardDetails.style.display = 'none'
+	 cardDetails.style.display = 'block'
 	}	
 })
 
@@ -25,5 +25,5 @@ const appendImages = (images)=>{
 	imagesLight.classList.toggle('show')
 	contentLight.classList.toggle('showImage')
 	hamburgerHold.style.opacity = '0'
-	cardDetails.style.display = "block'
+	cardDetails.style.display = 'none'
 } 
