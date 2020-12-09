@@ -23,6 +23,7 @@
   padding: 7px 15px !important;
   align-items: center;
   display: flex;
+  justify-content: center;
 }
 
 .space-between {
