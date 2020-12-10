@@ -3,7 +3,7 @@ const images = document.querySelectorAll('.img-gallery');
 const imagesLight = document.querySelector('.images-light');
 const contentLight = document.querySelector('.open-images');
 const hamburgerHold = document.querySelector('.hamburger-holder');
-const cardDetails = document.querySelectorAll('.card');
+const cardDetails = document.querySelector('.card');
 
 images.forEach(images =>{
 	images.addEventListener('click', ()=>{
