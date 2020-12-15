@@ -500,7 +500,7 @@ filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(108deg) brightness(104%
   
 .close {
  position: absolute;
- top: 75px;
+ top: 15px;
  left: 15px;
  width: 50px;
  cursor: pointer;
