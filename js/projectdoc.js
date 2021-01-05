@@ -1,4 +1,18 @@
-/* GSAP Interface */
+const gitsite = document.querySelector('.github-link');
+const linkedsite = document.querySelector('.linedin-link');
+
+//Listen for social site click link
+gitsite.addEventListener('click', ()=>{
+	const url = 'https://www.github.com/BarbaricEric';
+ const win = window.open(url, '_blank');
+})
+
+linkedsite.addEventListener('click', ()=>{
+	const url = 'https://www.linkedin.com/in/end';
+ const win = window.open(url, '_blank');
+})
+
+/* GSAP Animation Interface */
 gsap.from(".left-container", 2, {
  width: "0",
  ease: Expo.easeInOut
