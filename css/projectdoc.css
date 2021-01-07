@@ -123,6 +123,7 @@
  font-weight: 700;
  font-family: "helvetica";
  list-style: none;
+ cursor: pointer;
 }
 
 .first-block {
