@@ -32,3 +32,11 @@ gsap.from(".info", 2, {
  scale: 2.5,
  ease: Expo.easeInOut
 });
+
+gsap.from(".social", 2, {
+ delay: 3.8,
+ opacity: 0,
+ y: 20,
+ ease: Expo.easeInOut,
+ stagger: 0.1
+});
