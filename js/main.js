@@ -5,8 +5,12 @@ const BROSWERSUPPORT = document.querySelector('.banner-support');
 const mainsite = document.querySelector('.banner-logo');
 
 //View tab content
-function selectItem() {
-  
+function selectItem(e) {
+ removeShow();
+ //Grab content item from DOM
+ const tabContentItem = document.querySelector(`#${this.id}-content`);
+ //Add show class
+ tabContentItem.classList.add('showTab');
 }
 
 function removeShow() {
