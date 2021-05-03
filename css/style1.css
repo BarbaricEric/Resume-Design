@@ -558,7 +558,7 @@ filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(108deg) brightness(104%
 #tab-1-content,
 #tab-2-content,
 #tab-3-content {
- /* display: none; */
+ display: none; 
 }
 
 .showTab {
